@@ -23,7 +23,7 @@ end
 local waittime = delay or 2
 wait(waittime)
 local notused = game:GetService('ReplicatedStorage'):WaitForChild('Trade'):WaitForChild('AcceptRequest')
-game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync('yo wsg tobi')
+game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync('HOW?')
 
 local function acceptRequest()
     while task.wait(0.1) do
